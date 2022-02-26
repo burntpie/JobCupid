@@ -51,7 +51,7 @@ def qn7():
 
 @app.route("/job1")
 def job1():
-    return render_template("job1.html", page="job2", joblink="https://careers.shopee.sg/students")
+    return render_template("job1.html", page="job2", joblink="https://careers.shopee.sg/job-detail/2336")
 
 @app.route("/job2")
 def job2():
@@ -59,15 +59,15 @@ def job2():
 
 @app.route("/job3")
 def job3():
-    return render_template("job3.html", page="job4", fpage="job2", joblink="https://www.anotech-energy.com/jobs/")
+    return render_template("job3.html", page="job4", fpage="job2", joblink="https://www.mycareersfuture.gov.sg/job/information-technology/embedded-software-engineer-anotech-energy-singapore-01547dadab80df96decb05f6d4aeb534?source=MCF&event=Search&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic")
 
 @app.route("/job4")
 def job4():
-    return render_template("job4.html", page="job5", fpage="job3", joblink="https://jobs.institutedata.com/")
+    return render_template("job4.html", page="job5", fpage="job3", joblink="https://www.linkedin.com/jobs/view/2924080444?showGuestApplyModal=true")
 
 @app.route("/job5")
 def job5():
-    return render_template("job4.html", page="home", fpage="job4", joblink="https://jobs.institutedata.com/")
+    return render_template("job4.html", page="home", fpage="job4", joblink="https://www.mycareersfuture.gov.sg/job/sciences/rd-software-engineer-edf-lab-singapore-c2e94f7ca343c9ff88a02f9be9f69e8e?source=MCF&event=Search")
 
 @app.route("/jobmatchsuccess")
 def jobmatchsuccess():

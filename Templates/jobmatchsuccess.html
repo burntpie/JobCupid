@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
         <style>
           body{
             background-color:#f9ece3;
@@ -55,7 +56,7 @@
                         <h1 style="color: #6c4a4a">We found some jobs <br />that are a match!</h1>
                     </p>
                     <p class="bottom-three">
-                        <h3 style="color: #6c4a4a; font-family: lato;">Click Start to see your list of jobs. </h3>
+                        <h3 style="color: #6c4a4a; font-family: lato;">Click Start to see your curated list of jobs. </h3>
                     </p>
                     <p class="bottom-three">
                         <a id="startBtn" type="button" class="btn btn-secondary" href="/job1" >Start </a>
