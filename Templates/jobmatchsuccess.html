@@ -2,7 +2,6 @@
 <html>
     <head>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
         <style>
           body{
             background-color:#f9ece3;
@@ -20,10 +19,12 @@
             height: 10px;
             line-height: 0px;
           }
+          .bottom-three {
+            margin-bottom: 3cm;
+            }
         </style>
         <title>JobCupid</title>
-        
-          <nav id="navibar" class="navbar navbar-expand-md navbar-light">
+        <nav id="navibar" class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="" style="color: #6c4a4a">JobCupid</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -44,23 +45,21 @@
                 </li>
               </ul>
             </div>
-        </nav>
-     
-        
+          </nav>
     </head>
     <body>
         <div class="container">
             <div class="row no-gutters">
                 <div class="col-12 col-sm-6 col-md-8">
-                  <p style="margin-bottom:3cm;">
-                    <h1 style="color: #6c4a4a">Find Your <br />Perfect Job</h1>
-                  </p>
-                  <p style="margin-bottom:3cm;">
-                    <h3 style="color: #6c4a4a; font-family: 'Lato';">Fill up a short questionnaire <br/>and get linked to a personalised <br/>list of jobs.</h3>
-                  </p>
-                  <p style="margin-bottom:3cm;">
-                    <a id="startBtn" type="button" class="btn btn-secondary" href="/qn1" >Start Questionnaire</a>
-                  </p>
+                    <p class="bottom-three">
+                        <h1 style="color: #6c4a4a">We found some jobs <br />that are a match!</h1>
+                    </p>
+                    <p class="bottom-three">
+                        <h3 style="color: #6c4a4a; font-family: lato;">Click Start to see your list of jobs. </h3>
+                    </p>
+                    <p class="bottom-three">
+                        <a id="startBtn" type="button" class="btn btn-secondary" href="/job1" >Start </a>
+                    </p>
                 </div>
                 <div class="col-6 col-md-4">
                   <div>

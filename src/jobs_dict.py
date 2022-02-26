@@ -1,4 +1,4 @@
-{
+dict = {
     1:{
         "title": "STEM @ OCBC Internship Programme 2022 - Coding",
         "duration": "internship",
@@ -24,7 +24,7 @@
     3:{
         "title": "Front End Developer for E-learning Aggregator",
         "duration": "internship",
-        "company": "Real Estate School",
+        "company": "eal Estate School",
         "course": 0,
         "description": "Real Estate School is looking for a front-end developer for an upcoming e-learning aggregator. Candidates should be fluent/efficient in:- Python - React - HTML - CSS - JS/JavaScript - Bootstrap. The site itself will be like udemy.com or skillshare.com and some features it will contain are 3 different log-ins to 3 different dashboards and an embedded video player. Additional info along with a sample of the site we are looking to create will be sent to interested applicants.",
         "salary": "2500",
