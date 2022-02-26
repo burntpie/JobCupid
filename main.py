@@ -34,9 +34,8 @@ def qn4():
 
 @app.route("/qn5")
 def qn5():
-    options = ['Banking & Finance', 'Consulting and Management','Engineering and Manufacturing',
-                'IT', 'Marketing',
-               'Chemical Manufacturing', 'Medical', 'Select']
+    options = ['Banking & Finance', 'Chemical Manufacturing', 'Consulting and Management', 
+                'Engineering and Manufacturing', 'Healthcare', 'IT', 'Marketing', 'Media and Internet', 'Select']
     return render_template("question5.html", options=options, npage="qn6", bpage="qn4")
 
 @app.route("/qn6")
