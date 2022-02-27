@@ -73,10 +73,5 @@ def jobmatchsuccess():
     return render_template("jobmatchsuccess.html")
 
 
-"""
-& C:/Users/ngliw/AppData/Local/Programs/Python/Python38-32/python.exe "c:/Users/ngliw/OneDrive - Nanyang Technological University/intuition hackathon/xiaolongbaoz/main.py"
-"""
-
-
 if __name__ == "__main__":
     app.run(debug= True)
